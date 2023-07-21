@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <title>Tienda de Perfume</title>
+</head>
+<body>
+  <header class="header">
+    <h1 class="title">Tienda de Perfume</h1>
+    <div class="contenedorBotones">
+      <button class="button">Todos</button>
+      <button class="button">Mujeres</button>
+      <button class="button">Hombres</button>
+    </div>
+    <ul class="navigation">
+      <li class="nav-item">Contacto</li>
+      <li class="nav-item">Redes</li>
+      <li class="nav-item">Sobre nosotros</li>
+    </ul>
+  </header>
+  <div class="total"></div>
+  <div class="carrito">
+    <div class="total"></div>
+    <section class="carrito-contenido"></section>
+  </div>
+
+  <button class="botonVaciar">Vaciar</button>
+  <button id="botonCompletarCompra">Comprar</button>
+  <div class="catalogo"></div>
+  <form id="miFormulario" class="formulario">
+    <label for="nombre">Nombre:</label>
+    <input type="text" id="nombre" name="nombre" required><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="mensaje">Mensaje:</label>
+    <textarea id="mensaje" name="mensaje" required></textarea><br><br>
+
+    <input type="submit" value="Enviar" class="enviar-btn">
+  </form>
+  <div class="resultado"></div>
+
+  <script src="./js/main.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+</html>
+

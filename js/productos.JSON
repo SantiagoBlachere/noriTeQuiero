@@ -1,0 +1,55 @@
+[ 
+  {
+    "id": "perfume-01",
+    "nombre": "Athenea x100ml",
+    "precio": 9000,
+    "img": "./img/m-athenea.jpg",
+    "categoria": "Mujeres",
+    "cantidad": 0
+  },
+  {
+    "id": "perfume-02",
+    "nombre": "Le Secret x100ml",
+    "precio": 5600,
+    "img": "./img/m-le-secret.jpg",
+    "categoria": "Mujeres",
+    "cantidad": 0
+
+  },
+  {
+    "id": "perfume-03",
+    "nombre": "Life is Bella x100ml",
+    "precio": 7000,
+    "img": "./img/m-life-is-bella.jpg",
+    "categoria": "Mujeres",
+    "cantidad": 0
+
+  },
+  {
+    "id": "perfume-04",
+    "nombre": "Black Label x100ml",
+    "precio": 39000,
+    "img": "./img/h-black-label.jpg",
+    "categoria": "Hombres",
+    "cantidad": 0
+
+  },
+  {
+    "id": "perfume-05",
+    "nombre": "Code x100ml",
+    "precio": 8000,
+    "img": "./img/h-code.jpeg",
+    "categoria": "Hombres",
+    "cantidad": 0
+ 
+  },
+  {
+    "id": "perfume-06",
+    "nombre": "Millonaire x100ml",
+    "precio": 12000,
+    "img": "./img/h-millonaire.jpg",
+    "categoria": "Hombres",
+    "cantidad": 0
+
+  }
+]
